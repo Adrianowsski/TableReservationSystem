@@ -32,4 +32,5 @@ menu.php:
 Page presenting the restaurant menu (appetizers, main courses, desserts) with descriptions, photos, and prices.
 index.php:
 Welcome page displaying key information about the restaurant and login/registration buttons.
+![Zrzut ekranu 2025-01-22 181641](https://github.com/user-attachments/assets/bbcf70a7-4b27-4575-ac39-9f6d03e3add5)
 
