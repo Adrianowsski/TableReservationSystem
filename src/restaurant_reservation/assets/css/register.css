@@ -1,0 +1,61 @@
+/* assets/css/register.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.register-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-register {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+}
+
+.link-login {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+    .register-card {
+        padding: 20px;
+    }
+}

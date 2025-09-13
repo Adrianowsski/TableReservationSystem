@@ -1,0 +1,10 @@
+/* tables.css */
+.navbar, .card-header {
+    background-color: #343a40 !important;
+}
+.btn-outline-dark:hover {
+    background-color: #ced4da;
+}
+.table-dark {
+    background-color: #495057;
+}

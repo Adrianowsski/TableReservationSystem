@@ -1,0 +1,38 @@
+/* assets/css/user.css */
+
+.user-bg {
+    background-color: #1f1f2e;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+
+.card-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+}
+
+
+.bi {
+    margin-right: 0.4rem;
+}
+
+.btn-outline-light:hover {
+    background-color: #ced4da;
+    color: #000;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

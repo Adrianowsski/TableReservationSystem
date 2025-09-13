@@ -1,0 +1,21 @@
+/* reservations.css */
+body {
+    background: #f4f4f9;
+}
+.btn-turquoise {
+    background-color: #00BFBF;
+    color: #fff;
+    border: none;
+}
+.btn-turquoise:hover {
+    background-color: #009999;
+    color: #fff;
+}
+.table th {
+    background-color: #2e2e3f;
+    color: #fff;
+}
+.table thead {
+    border-bottom: 2px solid #2e2e3f;
+}
+/* itd. */

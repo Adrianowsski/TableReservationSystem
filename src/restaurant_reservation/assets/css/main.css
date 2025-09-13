@@ -1,0 +1,88 @@
+/* assets/css/main.css */
+
+
+.full-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section {
+    padding: 20px 15px;
+}
+
+.hero-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00BFBF; /* Turkusowy akcent */
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.hero-section .btn {
+    margin: 10px;
+    font-size: 1.1rem;
+    min-width: 150px;
+}
+
+.about-section {
+    flex: 1;
+    background: rgba(31, 31, 46, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #00BFBF;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+}
+
+.menu-section {
+    flex: 1;
+    background: rgba(31, 31, 46, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2rem;
+    color: #00BFBF;
+}
+
+.menu-section .btn {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    min-width: 150px;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}

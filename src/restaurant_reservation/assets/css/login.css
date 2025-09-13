@@ -1,0 +1,51 @@
+/* assets/css/login.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.login-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.login-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #4A4A4A;
+    margin-bottom: 1rem;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.link-register {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+    .login-card {
+        padding: 20px;
+        margin: 10px;
+    }
+}
